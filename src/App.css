@@ -47,3 +47,20 @@ button:hover {
   margin-top: 20px;
   color: #222;
 }
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-group input {
+  flex: 2;
+  width: auto;
+}
+
+.input-group select {
+  flex: 1;
+  width: auto;
+}
